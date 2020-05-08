@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Potiguar Prime - Camarões Selecionados de Natal/RN">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Potiguar Prime - Camarões Selecionados</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" rel="noopener noreferrer" type="image/x-icon">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
+        rel="noopener noreferrer">
+    <link rel="stylesheet" href="css/style.css" rel="noopener noreferrer">
+</head>
+
+<body data-spy="scroll" data-target=".nav" data-offset="40" id="page-top">
+    <section id="inicio">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"></a><button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                        class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger transp"
+                                href="#inicio">INÍCIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#conheca">SOBRE</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#revenda">REVENDEDOR</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#delivery">DELIVERY</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contato">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <header class="menu-bg">
+            <div class="menu-logo">
+                <img class="logo" src="assets/img/logo.webp" alt="Logomarca do Potiguar Prime">
+            </div>
+        </header>
+    </section>
+
+    <section class="sobre padding-outside padding-lateral" id="conheca">
+        <div class="texto-sobre">
+            <h2 class="padding-lateral">"Desde 2019 selecionando os melhores camarões para você!"</h2>
+            <p class="texto padding-inside padding-lateral">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eaque, fuga libero
+                est adipisci
+                temporibus similique architecto vitae repellendus, aliquid saepe amet dignissimos accusamus nam minus
+                dolorem deleniti? Exercitationem, modi magni.</p>
+        </div>
+        <div class="fotos-sobre">
+            <ul class="lista-fotos padding-inside">
+                <li class="foto-caption"><img class="foto" src="assets/img/foto1.webp"
+                        alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal1">
+                </li>
+                <li class="foto-caption"><img class="foto" src="assets/img/foto2.webp"
+                        alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal2">
+                </li>
+                <li class="foto-caption"><img class="foto" src="assets/img/foto3.webp"
+                        alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal3">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="revendedor" id="revenda">
+        <div class="revdiv padding-outside">
+            <p class="revendedor-texto">Conheça nossos revendedores</p>
+            <ul class="lista-revendedores padding-inside">
+                <li class="item-revenda"><img src="assets/img/revendedor-tialila.webp"
+                        alt="Logomarca do revendedor Tia Lila" class="foto-revenda"></li>
+                <li class="item-revenda"><img src="assets/img/revendedor-brotarcozinhaafetiva.webp"
+                        alt="Logomarca do revendedor Brotar Cozinha Afetiva" class="foto-revenda"></li>
+                <li class="item-revenda"><img src="assets/img/revendedor-lojaodascarnes.webp"
+                        alt="Logomarca do revendedor Lojão das Carnes" class="foto-revenda"></li>
+                <li class="item-revenda"><img src="assets/img/revendedor-emporioxiquexique.webp"
+                        alt="Logomarca do revendedor Empório Xique Xique" class="foto-revenda"></li>
+                <li class="item-revenda"><img src="assets/img/revendedor-germano.webp"
+                        alt="Logomarca do revendedor Supermercado Germano" class="foto-revenda"></li>
+                <li class="item-revenda"><img src="assets/img/revendedor-anubiapaodequeijo.webp"
+                        alt="Logomarca do revendedor Anúbia Pão de Queijo" class="foto-revenda"></li>
+            </ul>
+            <p class="revendedor-texto padding-inside">Quer se tornar um revendedor?</p>
+            <div class="formdiv padding-inside">
+                <form id="form-revendedor" class=formulario method="POST" action="/email.php"
+                    label="Formulário de solicitação para ser representante da Potiguar Prime">
+                    <ul class="lista-form">
+                        <li class="item-form"><input type="text" required name="razao" id="razao"
+                                class="campo-formulario" placeholder="RAZÃO SOCIAL"
+                                label="Espaço para digitar a razão social"></li>
+                        <li class="item-form"><input type="text" required name="cnpj" id="cnpj" class="campo-formulario"
+                                placeholder="CNPJ" label="Espaço para digitar o CNPJ">
+                        </li>
+                        <li class="item-form"><input type="text" required name="representante" id="representante"
+                                class="campo-formulario" placeholder="REPRESENTANTE"
+                                label="Espaço para digitar o nome do representante"></li>
+                        <li class="item-form"><input type="text" required name="telefone" id="telefone"
+                                class="campo-formulario" placeholder="TELEFONE" label="Espaço para digitar o telefone">
+                        </li>
+                        <li class="item-form"><input type="email" required name="email" id="email"
+                                class="campo-formulario" placeholder="E-MAIL" label="Espaço para digitar o e-mail"></li>
+                        <li class="item-form"><textarea name="mensagem" id="mensagem" cols="30" rows="50"
+                                class="campo-formulario" placeholder="MENSAGEM" style="height: 62px;"
+                                label="Espaço para digitar alguma mensagem adicional"></textarea></li>
+                        <li class="item-form"><button type="submit" class="botao-submit"
+                                label="Botão de enviar formulário">ENVIAR</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="delivery" id="delivery">
+        <div class="delivery-container padding-outside padding-lateral">
+            <p class="delivery-texto">QUER RECEBER SEU CAMARÃO EM CASA?</p>
+            <ul class="lista-botao">
+                <li class="item-botao"><input type="button" value="CARDÁPIO" class="botao-delivery" data-toggle="modal"
+                        data-target="#modal4"></li>
+                <li class="item-botao">
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5584996331609&text=Ol%C3%A1%20Potiguar%20Prime!%20Gostaria%20de%20fazer%20um%20pedido!"
+                        target="_blank" rel="noopener noreferrer"><input type="button" value="PEÇA JÁ!"
+                            class="botao-delivery"></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class=" contato" id="contato">
+        <div class="container-contato2 padding-outside">
+            <h2 class="padding-lateral">Entre em contato conosco!</h2>
+            <p class="texto-contato padding-inside padding-lateral">Ficou com água na boca ou quer saber um pouco mais
+                sobre a
+                Potiguar Prime?
+                Entre
+                em
+                contato conosco!
+            </p>
+            <div class="container-contato">
+                <ul class="lista-contato">
+                    <li>
+                        <div class="container-item">
+                            <a href="tel:84996331609" rel="noopener noreferrer"><i class="fas fa-phone"></i></a>
+                            <a href="tel:84996331609" rel="noopener noreferrer">
+                                <p class="texto-contato">84 99633-1609</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container-item">
+                            <i class="far fa-envelope"></i>
+                            <p class="texto-contato">contato@potiguarprime.com.br</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container-item">
+                            <a href="https://instagram.com/PotiguarPrime/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://instagram.com/PotiguarPrime/" target="_blank" rel="noopener noreferrer">
+                                <p class="texto-contato">@PotiguarPrime</p>
+                            </a>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <ul class="rodape-lista">
+            <li class="rodape-item">
+                <p class="copy">Copyright © 2020 - Victorfclima</p>
+            </li>
+            <li class="rodape-item"><a href="http://www.linkedin.com/in/victorfclima" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+            <li class="rodape-item"> <a href="https://victorfclima.github.io/" target="_blank"
+                    rel="noopener noreferrer"> <i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Modal -->
+    <!-- FOTO 1 -->
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img class="modal-foto" src="assets/img/foto1.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FOTO 2 -->
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img class="modal-foto" src="assets/img/foto2.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FOTO 3 -->
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img class="modal-foto" src="assets/img/foto3.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- CARDÁPIO -->
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-body">
+                <img class="modal-cardapio" src="assets/img/cardapio.webp"
+                    alt="Foto mostrando o cardápio da Potiguar Prime">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+            class="fas fa-chevron-up"></i></a>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="email.js"></script>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
