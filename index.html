@@ -8,14 +8,15 @@
     <title>Potiguar Prime - Camarões Selecionados</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico" rel="noopener noreferrer" type="image/x-icon">
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
         rel="noopener noreferrer">
-    <link rel="stylesheet" href="css/style.css" rel="noopener noreferrer">
+    <link rel="stylesheet" href="css/style.min.css" rel="noopener noreferrer">
 </head>
 
-<body data-spy="scroll" data-target=".nav" data-offset="40" id="page-top">
+<body data-spy="scroll" data-target=".nav" id="page-top">
     <section id="inicio">
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -50,11 +51,7 @@
         </nav>
 
 
-        <header class="menu-bg">
-            <div class="menu-logo">
-                <img class="logo" src="assets/img/logo.webp" alt="Logomarca do Potiguar Prime">
-            </div>
-        </header>
+        <header class="menu-bg"></header>
     </section>
 
     <section class="sobre padding-outside padding-lateral" id="conheca">
@@ -68,13 +65,13 @@
         </div>
         <div class="fotos-sobre">
             <ul class="lista-fotos padding-inside">
-                <li class="foto-caption"><img class="foto" src="assets/img/foto1.webp"
+                <li class="foto-caption rounded"><img class="foto rounded" src="assets/img/foto1.webp"
                         alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal1">
                 </li>
-                <li class="foto-caption"><img class="foto" src="assets/img/foto2.webp"
+                <li class="foto-caption rounded"><img class="foto rounded" src="assets/img/foto2.webp"
                         alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal2">
                 </li>
-                <li class="foto-caption"><img class="foto" src="assets/img/foto3.webp"
+                <li class="foto-caption rounded"><img class="foto rounded" src="assets/img/foto3.webp"
                         alt="Foto mostrando a estrutura da Potiguar Prime" data-toggle="modal" data-target="#modal3">
                 </li>
             </ul>
@@ -86,26 +83,27 @@
             <p class="revendedor-texto">Conheça nossos revendedores</p>
             <ul class="lista-revendedores padding-inside">
                 <li class="item-revenda"><img src="assets/img/revendedor-tialila.webp"
-                        alt="Logomarca do revendedor Tia Lila" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Tia Lila" class="foto-revenda rounded"></li>
                 <li class="item-revenda"><img src="assets/img/revendedor-brotarcozinhaafetiva.webp"
-                        alt="Logomarca do revendedor Brotar Cozinha Afetiva" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Brotar Cozinha Afetiva" class="foto-revenda rounded"></li>
                 <li class="item-revenda"><img src="assets/img/revendedor-lojaodascarnes.webp"
-                        alt="Logomarca do revendedor Lojão das Carnes" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Lojão das Carnes" class="foto-revenda lojao rounded"></li>
                 <li class="item-revenda"><img src="assets/img/revendedor-emporioxiquexique.webp"
-                        alt="Logomarca do revendedor Empório Xique Xique" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Empório Xique Xique" class="foto-revenda rounded"></li>
                 <li class="item-revenda"><img src="assets/img/revendedor-germano.webp"
-                        alt="Logomarca do revendedor Supermercado Germano" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Supermercado Germano" class="foto-revenda rounded"></li>
                 <li class="item-revenda"><img src="assets/img/revendedor-anubiapaodequeijo.webp"
-                        alt="Logomarca do revendedor Anúbia Pão de Queijo" class="foto-revenda"></li>
+                        alt="Logomarca do revendedor Anúbia Pão de Queijo" class="foto-revenda rounded"></li>
             </ul>
-            <p class="revendedor-texto padding-inside">Quer se tornar um revendedor?</p>
+            <p class="revendedor-texto padding-inside">Também quer se tornar um revendedor?</p>
             <div class="formdiv padding-inside">
                 <form id="form-revendedor" class=formulario method="POST" action="/email.php"
                     label="Formulário de solicitação para ser representante da Potiguar Prime">
                     <ul class="lista-form">
                         <li class="item-form"><input type="text" required name="razao" id="razao"
                                 class="campo-formulario" placeholder="RAZÃO SOCIAL"
-                                label="Espaço para digitar a razão social"></li>
+                                label="Espaço para digitar a razão social">
+                        </li>
                         <li class="item-form"><input type="text" required name="cnpj" id="cnpj" class="campo-formulario"
                                 placeholder="CNPJ" label="Espaço para digitar o CNPJ">
                         </li>
@@ -148,9 +146,6 @@
             <p class="texto-contato padding-inside padding-lateral">Ficou com água na boca ou quer saber um pouco mais
                 sobre a
                 Potiguar Prime?
-                Entre
-                em
-                contato conosco!
             </p>
             <div class="container-contato">
                 <ul class="lista-contato">
@@ -205,7 +200,8 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <img class="modal-foto" src="assets/img/foto1.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+                <img class="modal-foto rounded" src="assets/img/foto1.webp"
+                    alt="Foto mostrando a estrutura da Potiguar Prime">
             </div>
         </div>
     </div>
@@ -220,7 +216,8 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <img class="modal-foto" src="assets/img/foto2.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+                <img class="modal-foto rounded" src="assets/img/foto2.webp"
+                    alt="Foto mostrando a estrutura da Potiguar Prime">
             </div>
         </div>
     </div>
@@ -235,7 +232,8 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <img class="modal-foto" src="assets/img/foto3.webp" alt="Foto mostrando a estrutura da Potiguar Prime">
+                <img class="modal-foto rounded" src="assets/img/foto3.webp"
+                    alt="Foto mostrando a estrutura da Potiguar Prime">
             </div>
         </div>
     </div>
@@ -255,17 +253,16 @@
     </div>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+    <a id="back-to-top" href="#" class="btn btn-potiguar btn-lg back-to-top" role="button"><i
             class="fas fa-chevron-up"></i></a>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="email.js"></script>
     <script src="main.js"></script>
-    <script src="script.js"></script>
+    <script src="script.min.js"></script>
 </body>
 
 </html>
