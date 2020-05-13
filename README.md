@@ -1,5 +1,5 @@
-# Landing Page - Potiguar Prime
-This is a landing page for a friend's business (Shrimp Farm). I developed this LP as a way to put in practice what I'm learning, with a real situation. I hope that can help someone in anyway. 
+# Potiguar Prime
+This is a site for a friend's business (Shrimp Farm). I developed this LP as a way to put in practice what I'm learning, with a real situation. I hope that can help someone in anyway. 
 
 # What did I use?
 HTML 5;<br>
