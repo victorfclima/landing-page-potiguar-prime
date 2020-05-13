@@ -12,7 +12,8 @@
 }
 
 body {
-    position: relative;
+    position : relative;
+    max-width: 100vw;
 }
 
 .menu-bg {
@@ -40,13 +41,6 @@ button.navbar-toggler {
 
 .bg-primary {
     background-color: #E77E25 !important;
-}
-
-@media (min-width: 568px) {
-    #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-        color     : #fff !important;
-        background: #E77E25 !important;
-    }
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -88,7 +82,7 @@ h2 {
 }
 
 .texto {
-    color      : #c9c9c9;
+    color      : #9b9b9b;
     font-size  : 2em;
     padding-top: 50px;
     text-align : center;
@@ -123,10 +117,6 @@ h2 {
     transition: 0.5s;
 }
 
-.modal-body {
-    margin: 0 auto;
-}
-
 .close {
     color  : white;
     opacity: 1;
@@ -134,7 +124,15 @@ h2 {
 
 .modal-foto {
     width : 500px;
-    height: 400px;
+    height: 333.3333px;
+}
+
+.modal-content {
+    display         : flex;
+    background-color: transparent;
+    border          : none;
+    justify-content : center;
+    align-items     : center;
 }
 
 .revendedor {
@@ -234,11 +232,13 @@ textarea {
     width           : 80px;
     border-radius   : 15px;
     cursor          : pointer;
+    outline         : none;
 }
 
 .botao-submit:hover {
     opacity   : 60%;
     transition: 0.3s;
+    outline   : none;
 }
 
 .delivery {
@@ -264,22 +264,8 @@ textarea {
     text-align : center;
 }
 
-.modal {
-    text-align: center;
-    margin-top: 10vh;
-}
-
-.modal-dialog {
-    text-align: center;
-}
-
-.modal-body {
-    text-align: center;
-}
-
 .modal-cardapio {
-    height     : 500px;
-    margin-left: 50px;
+    height: 500px;
 }
 
 .lista-botao {
@@ -302,10 +288,12 @@ textarea {
     width           : 135px;
     border-radius   : 45px;
     cursor          : pointer;
+    outline         : none;
 }
 
 .botao-delivery:hover {
-    color: yellow;
+    color  : yellow;
+    outline: none;
 }
 
 .container-contato {
@@ -420,11 +408,14 @@ a {
 
 
 
-
-
-
-
 /* ------ MEDIAS ------ */
+
+@media (min-width: 568px) {
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+        color     : #fff !important;
+        background: #E77E25 !important;
+    }
+}
 
 @media (max-width: 568px) {
 
@@ -432,7 +423,7 @@ a {
         background       : url(/assets/bg/shrimp-smart.webp) fixed;
         background-size  : contain;
         background-repeat: no-repeat;
-        width            : 100%;
+        max-width        : 100vw;
         height           : 40vh;
     }
 
@@ -443,29 +434,28 @@ a {
 
     .foto {
         width : 200px;
-        height: 150px;
+        height: 133.3333px;
     }
 
     .modal-foto {
-        width : 250px;
+        width : 300px;
         height: 200px;
     }
 
     .foto-caption {
         margin-top      : 10px;
         width           : 200px;
-        height          : 150px;
+        height          : 133.3333px;
         background-color: black;
     }
 
     .revendedor-texto {
         padding-left : 5px;
         padding-right: 5px;
-
-        color     : white;
-        font-style: italic;
-        font-size : 3em;
-        text-align: center;
+        color        : white;
+        font-style   : italic;
+        font-size    : 3em;
+        text-align   : center;
     }
 
     .lista-revendedores {
@@ -490,6 +480,7 @@ a {
         height       : 36px;
         width        : 92px;
         border-radius: 36px;
+        outline      : none;
     }
 
     .delivery {
@@ -505,27 +496,8 @@ a {
         text-align : center;
     }
 
-    .modal {
-        text-align: center;
-        margin    : 0 auto;
-        padding   : 0;
-        margin-top: 20vh;
-    }
-
-    .modal-dialog {
-        text-align: center;
-        padding   : 0;
-    }
-
-    .modal-body {
-        text-align: center;
-        padding   : 0;
-    }
-
     .modal-cardapio {
-        height    : 380px;
-        text-align: center;
-        padding   : 0;
+        height: 380px;
     }
 
     .lista-botao {
@@ -544,6 +516,7 @@ a {
         height          : 45px;
         width           : 115px;
         cursor          : pointer;
+        outline         : none;
     }
 
     .container-contato {

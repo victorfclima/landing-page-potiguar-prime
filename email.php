@@ -7,7 +7,7 @@ $telefone = addslashes($_POST['telefone']);
 $email =  addslashes($_POST['email']);
 $mensagem =  addslashes($_POST['mensagem']);
 
-$to = "victorfclima@gmail.com";
+$to = "contato@potiguarprime.com.br";
 $subject = "Olá, gostaria de me tornar um revendedor Potiguar Prime!";
 $body = "Razão Social: ".$razao. "\r\n".
         "CNPJ: ".$cnpj. "\r\n".
@@ -15,7 +15,7 @@ $body = "Razão Social: ".$razao. "\r\n".
         "Telefone: ".$telefone. "\r\n".
         "E-mail: ".$email. "\n".
         "Mensagem: ".$mensagem;
-$header = "From: victorfclima@gmail.com"."\r\n".
+$header = "From: contato@potiguarprime.com.br"."\r\n".
           "Reply-To:$email".
           "\e\n".
           "X=Mailer:PHP/".phpversion();

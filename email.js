@@ -10,5 +10,8 @@ $("#form-revendedor").submit(function (e) {
         }
     });
 
+
     e.preventDefault();// esse comando serve para previnir que o form realmente realize o submit e atualize a tela.
+    $('#form-revendedor').trigger("reset");
+
 });
